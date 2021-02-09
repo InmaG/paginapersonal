@@ -1,0 +1,169 @@
+
+body{
+
+    background: linear-gradient(130deg,grey, orange);
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* article.infoItemss img,
+article.infoItems video,
+article.infoItemsiframe {
+    width: 100%;
+} */
+
+.iconoimg{
+    width: 250px;
+}
+
+/* *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img {
+    width: 50px; 
+    height: 50px;
+} */
+
+/* --------------360 o menos ------------ */
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.sectionContainer,
+.articleContainer {
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+/* --------------360 o menos ------------ */
+ @media screen and (min-width: 361px) {
+    .wrapper {
+      width: 360px;
+    }
+  
+    .sectionsContainer {
+      flex-direction: row;
+    }
+  
+    section {
+      margin: 0 3%;
+    }
+  }
+  
+  /* 961 o mas  */
+  @media screen and (min-width: 961px) {
+    .wrapper {
+      width: 960px;
+    }
+  
+    .articlesContainer {
+      flex-direction: row;
+    }
+  }
+ 
+/* estilos para el formulario */
+
+.formInfo{
+    width: 500px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    margin-top: 100px;
+    border-radius: 12px;
+    
+} 
+
+h2{
+    color:white;
+    text-align: center;
+    margin: 0;
+    font-family:'Kant', cursive;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+input,textera{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-size: 15px;
+    border:none;
+}
+#enviar{
+
+    background-color:rgb(73, 55, 21);
+    color:white;
+    font-size:17px;
+    padding: 2px;
+
+
+}
+#enviar:hover{
+
+    border:1px soild rgb(248, 195, 95);
+    cursor: pointer;
+}
+
+label{
+    font-weight: 100;
+    font-size: 20px;
+    font-family:'Kant', cursive;
+    margin:0;
+
+
+}
+input, type{
+
+    font-weight: 100;
+    font-size: 12px;
+    font-family:'Kant', cursive;
+    margin:0;
+
+}
+
+nav a{
+
+    text-decoration:none;
+    color:inherit;
+    font-family:'Kant', cursive;
+    font-size:20px;
+  }
+
+  nav li{
+      display:inline-block;
+      width: 200px;
+      height: 30px;
+      padding:5px 10px;
+      background-color:rgb(121, 74, 4);
+      border:1px soild #000;
+      text-align: center;
+      color:#fff;
+      position:relative;
+
+  }
+  nav li:hover{
+      background-color: #fff;
+      color:#000;
+  }
+  nav li>ul{
+      display:none;
+  }
+
+  nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+  }

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Contacto</title>
+    <link rel-"preconecte" href-"https://fonts.gstatic.com">
+    <link href-"https://fonts.googleapis.com/css2? display-swap" rel-"hoja de estilo">
+    <link rel="stylesheet" href="css/styleResponsive.css">
+</head>
+<body>
+    
+    <header>
+        
+    </header>
+    <nav class="nav a">
+        <ul class="topnav">
+            <li class="nav li"><a href="../mystheria/index.html" title="Index">Index</a>
+            
+                <ul>
+                    <li><a href="Ejemplo1" title="Ejemplo1">Ejemplo1</a></li>
+                    <li><a href="Ejemplo2" title="Ejemplo2">Ejemplo2</a></li>
+                    <li><a href="Ejemplo3" title="Ejemplo3">Ejemplo3</a></li>
+
+                </ul>
+            
+            </li>
+            <li><a href="../mystheria/Biografia.html" title="Biografía">Biografía</a></li>
+            <li> <a href="../mystheria/contactoFormulario.html" title="Contactos">Contactos</a> </li>
+                
+           
+        </li> 
+        <!-- <select>
+            <option value="Contacto">Contacto</option>
+            <option value="Dirección">Dirección</option>
+            <option value="Tienda Online">Tienda Online</option>
+        </select> -->
+
+
+        </ul>
+    </nav> 
+    <main>
+        <div class="wrapper formInfo">
+        <!-- <section> 
+            <div id="iconoimg">
+            <article>
+                <img src="img/iconocontacto.jpg" alt="Contacto">
+                
+            </article>
+        </div> -->
+
+        <!-- </section>
+        <section>
+            <div class="infoItems">
+                <p><img src="img/iconoemail.png" alt="Correo electrónico">contacto@gmail.com</p>
+                <p><img src="img/iconotelefono1.jpg" alt="Telefono">(34) 678 32 45)</p>
+            </div>
+        </section> -->
+        <section>
+            <h2>Contacto</h2>
+            <form class="formContact">
+            <div class="userInfo">
+
+                <div id="nombre">
+                     <label for="names">Nombre</label>
+                     <input type="text" id="names" placeholder="Escriba su nombre">
+                </div>
+                
+                <div id="apellidos">
+
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" size="20" placeholder="Escriba sus dos apellidos">
+
+                </div>
+
+                <div id="email">
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="text" id="email" placeholder="Escriba su correo electrónico">
+
+                </div>
+                <div id="sexo">
+
+                    <label for="sexo">Sexo</label>
+                    <input type="radio" name="sexo"  id="sexoM" value="H">Hombre
+                    <input type="radio" name="sexo"  id="sexoF" value="M">Mujer<br>
+
+                </div>  
+                <div id="edad">
+                    <label for="menor">Mayor de edad</label>
+                    <input type="checkbox" name="mayor" id="mayor">
+                    <label for="menor">Menor de edad</label>
+                    <input type="checkbox" name="menor" id="menor">
+
+                </div> 
+                
+                
+                <div id="provincia">
+
+                    <label for="provincia">Provincia</label>:<br>
+                    <select id="provincia" name="provincia"> 
+                        <option value="provincia">-----</option>
+                        <option value="provinciaA">Álava</option>
+                        <option value="provinciaAB">Albacete</option>
+                        <option value="provinciaAC">Alicante</option>
+                        <option value="provinciaAl">Almería</option>
+                        <option value="provinciaA">Asturias</option>
+                        <option value="provinciaBD">Badajoz</option>
+                        <option value="provinciaBA">Barcelona </option>
+                        <option value="provinciaBU">Burgos</option>
+                        <option value="provinciaCC">Cáceres</option>
+                        <option value="provinciaCd">Cádiz</option>
+                        <option value="provinciaC">Cantabria</option>
+                        <option value="provinciaCa">Castellón</option>
+                        <option value="provinciaCR">Ciudad Real</option>
+                        <option value="provinciaCO">Córdoba</option>
+                        <option value="provinciaC">Cuenca</option>
+                        <option value="provinciaGE">Gerona</option>
+                        <option value="provinciaGR">Granada</option>
+                        <option value="provinciaG">Guadalajara</option>
+                        <option value="provinciaGu">Guipúzcoa</option>
+                        <option value="provinciaH">Huelva</option>
+                        <option value="provinciaHU">Huesca</option>
+                        <option value="provinciaI">Islas Baleares</option>
+                        <option value="provinciaJ">Jaén</option>
+                        <option value="provinciaLC">La Coruña</option>
+                        <option value="provinciaLR">La Rioja </option>
+                        <option value="provinciaLP">Las Palmas </option>
+                        <option value="provinciaLe">León</option>
+                        <option value="provinciaLl">Lérida </option>
+                        <option value="provinciaL">Lugo</option>
+                        <option value="provinciaM">Madrid </option>
+                        <option value="provinciaMa">Málaga</option>
+                        <option value="provinciaMu">Murcia</option>
+                        <option value="provinciaNa">Navarra</option>
+                        <option value="provinciaO">Orense</option>
+                        <option value="provinciaPa">Palencia</option>
+                        <option value="provinciaPo">Pontevedra</option>
+                        <option value="provinciaSl">Salamanca</option>
+                        <option value="provinciaSa">Santa Cruz de Tenerife </option>
+                        <option value="provinciaS">Segovia </option>
+                        <option value="provinciaSe">Sevilla</option>
+                        <option value="provinciaSo">Soria </option>
+                        <option value="provinciaT">Tarragona</option>
+                        <option value="provinciaTe">Teruel</option>
+                        <option value="provinciaTo">Toledo </option>
+                        <option value="provinciaVal">Valencia </option>
+                        <option value="provinciaVa">Valladolid </option>
+                        <option value="provinciaVi">Vizcaya</option>
+                        <option value="provinciaZ">Zamora</option>
+                        <option value="provinciaZa">Zaragoza </option>
+
+                                      
+                    </select>
+                <br>
+                </div>
+                <div id="telefono">
+
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" id="telefono" size="15" placeholder="Escriba su número de teléfono">
+
+                </div>
+                <div id="mensaje">
+
+                    <label for="mensaje">Mensaje</label>:<br>
+                    <textarea name="mensaje" id="mensaje" placeholder="Escriba un mensaje"></textarea>
+                </div>
+                <div id="enviar">
+                    <input type="submit" value="Enviar" id="enviar"><br>
+                </div>
+
+            </div>
+            </form>
+        </section>
+
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
