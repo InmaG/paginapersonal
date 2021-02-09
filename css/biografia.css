@@ -55,9 +55,42 @@ body{
       flex-direction: row;
     }
   }
+  nav a{
 
+    text-decoration:none;
+    color:inherit;
+    font-family: 'Dancing Script', cursive;
+    font-size:20px;
+  }
 
-nav a{
+  nav li{
+      display:inline-block;
+      width: 200px;
+      height: 30px;
+      padding:5px 10px;
+      background-color:rgb(54, 54, 53);
+      border:1px soild #000;
+      text-align: center;
+      color:#fff;
+      position:relative;
+
+  }
+  nav li:hover{
+      background-color: #fff;
+      color:#000;
+  }
+  nav li>ul{
+      display:none;
+  }
+
+  nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+  }
+
+/* nav a{
 
     text-decoration:none;
     color:inherit;
@@ -70,7 +103,7 @@ nav a{
       width: 200px;
       height: 50px;
       padding:10px 15px;
-      /* background-color:rgb(92, 87, 80); */
+      background-color:rgb(92, 87, 80);
       background: rgb(34, 33, 33);
       border:1px soild #000;
       text-align: center;
@@ -93,7 +126,7 @@ nav a{
       position:absolute;
       top:30px;
       left:0px;
-  }
+  } */
   .contenido-texto h2 {
 
     margin-bottom: 15px;
@@ -179,12 +212,12 @@ nav a{
 }
 
 .imagen-sobremi {
-    width: 24%;
+    width: 40%;
+    height: auto;
     margin-bottom: 10px;
    
     overflow:hidden;
     position: relative;
-    cursor:pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
@@ -308,3 +341,18 @@ footer{
 
 }
 
+.animacion {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 7s infinite;
+    
+  }
+  
+  
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }

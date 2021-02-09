@@ -81,6 +81,7 @@ body{
     margin-bottom: 60px;
 }
 
+
 header{
 
     width: 100%;
@@ -276,4 +277,23 @@ footer{
     color:grey;
 
 }
+.animacion {
+    /* width: 100px;
+    height: 100px; */
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(99, 92, 92, 0.904);
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    animation: mymove 7s infinite;
+    color:white;
+  }
 
+
+  
+   @keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
+  }
+
+  
